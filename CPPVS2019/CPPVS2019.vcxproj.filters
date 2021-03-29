@@ -10,46 +10,31 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CProgramming.h">
+    <ClCompile Include="C++\Templates.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="C++\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Inheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Templates.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Inheritance.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="String.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DataStructures.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Learnings.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Helpers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="Helpers.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="C++\Templates.h" />
+    <ClInclude Include="C++\String.h" />
+    <ClInclude Include="C++\InterestingLearnings.h" />
+    <ClInclude Include="C++\DataStructures.h" />
+    <ClInclude Include="C++\Inheritance.h" />
+    <ClInclude Include="DataStructures\LinkedList.h" />
+    <ClInclude Include="ProblemSolving\Strings.h" />
+    <ClInclude Include="ProblemSolving\Arrays.h" />
+    <ClInclude Include="ProblemSolving\Recursion.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Templates.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Inheritance.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="String.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

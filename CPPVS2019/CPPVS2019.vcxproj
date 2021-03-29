@@ -155,19 +155,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DataStructures.h" />
+    <ClInclude Include="C++\DataStructures.h" />
+    <ClInclude Include="DataStructures\LinkedList.h" />
     <ClInclude Include="Helpers.h" />
-    <ClInclude Include="Inheritance.h" />
-    <ClInclude Include="Learnings.h" />
+    <ClInclude Include="C++\Inheritance.h" />
+    <ClInclude Include="C++\InterestingLearnings.h" />
     <ClInclude Include="Main.h" />
-    <ClInclude Include="String.h" />
-    <ClInclude Include="Templates.h" />
+    <ClInclude Include="C++\String.h" />
+    <ClInclude Include="C++\Templates.h" />
+    <ClInclude Include="ProblemSolving\Arrays.h" />
+    <ClInclude Include="ProblemSolving\Recursion.h" />
+    <ClInclude Include="ProblemSolving\Strings.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Inheritance.cpp" />
+    <ClCompile Include="C++\Inheritance.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="String.cpp" />
-    <ClCompile Include="Templates.cpp" />
+    <ClCompile Include="C++\String.cpp" />
+    <ClCompile Include="C++\Templates.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

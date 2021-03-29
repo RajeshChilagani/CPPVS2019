@@ -1,4 +1,13 @@
 #pragma once
+
+#include <assert.h>
+#include <type_traits>
+#include <array>
+#include <functional>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <typeinfo>
 /*Array class*/
 template<typename T, size_t size>
 class Array

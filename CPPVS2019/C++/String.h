@@ -82,3 +82,9 @@ inline std::ostream& operator<<(std::ostream& os, const String& i_Test)
 	std::cout << i_Test.m_Name << std::endl;
 	return os;
 }
+
+static String&& CreateString(const char* i_Name)
+{
+	static String&& ref = String(i_Name);
+	return std::move(ref);
+}
